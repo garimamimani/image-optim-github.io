@@ -37,15 +37,23 @@
 		</ul>
 		<div id="content">
 			<section id="collectionHero">
-				<img id="heroImage" src="img/hero-1x.webp" alt="Grilled Pork Chops" srcset="img/hero-2x.webp 2x, img/hero-1x.webp 1x">
+				<picture>
+					<source src="img/hero-1x.webp" type="image/webp">
+					<source src="img/hero-1x.jpg" type="image/jpeg">
+				<img id="heroImage" src="img/hero-1x.jpg" alt="Grilled Pork Chops">
 				<a href="#" class="heroLabel">Grilled Pork Chops</a>
+			</picture>
 			</section>
 			<h2 class="collectionTitle">Fish Recipes</h2>
 			<section class="collection">
 				<div class="recipe">
 					<a href="#" class="recipeLink">
-						<img src="img/fish-and-chips-1x.webp" srcset="img/fish-and-chips-2x.webp 2x, img/fish-and-chips-1x.webp 1x" alt="Fish and Chips" class="recipeImage">
+						<picture>
+					<source src="img/fish-and-chips-1x.webp" type="image/webp">
+					<source src="img/fish-and-chips-1x.jpg" type="image/jpeg">
+						<img src="img/fish-and-chips-1x.webp"  alt="Fish and Chips" class="recipeImage">
 						<p class="recipeName">Fish and Chips</p>
+					</picture>
 					</a>
 				</div>
 				<div class="recipe">
